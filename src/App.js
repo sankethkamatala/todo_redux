@@ -10,7 +10,7 @@ import TodoForm from "./Components/TodoForm";
 
 //redux
 import { Provider } from "react-redux";
-import store from "./store"
+import store from "./store";
 function App() {
   return (
     <Provider store={store}>
